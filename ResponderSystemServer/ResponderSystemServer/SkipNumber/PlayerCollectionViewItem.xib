@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13771" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="PlayerCollectionViewItem" customModule="ResponderSystemServer" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="Hz6-mo-xeY" id="0bl-1N-x8E"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView id="Hz6-mo-xeY">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rkv-6P-iO0">
+                    <rect key="frame" x="9" y="32" width="83" height="36"/>
+                    <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" alignment="center" title="玩家1" id="7tf-bO-2Rz">
+                        <font key="font" metaFont="system" size="30"/>
+                        <color key="textColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                    </textFieldCell>
+                </textField>
+            </subviews>
+            <constraints>
+                <constraint firstItem="rkv-6P-iO0" firstAttribute="centerY" secondItem="Hz6-mo-xeY" secondAttribute="centerY" id="VIV-0W-WXd"/>
+                <constraint firstItem="rkv-6P-iO0" firstAttribute="centerX" secondItem="Hz6-mo-xeY" secondAttribute="centerX" id="mYk-GY-GOZ"/>
+            </constraints>
+            <point key="canvasLocation" x="23" y="237"/>
+        </customView>
+        <collectionViewItem identifier="PlayerCollectionViewItem" id="Hic-gw-dK7" customClass="PlayerCollectionViewItem" customModule="ResponderSystemServer" customModuleProvider="target">
+            <connections>
+                <outlet property="nameTextField" destination="rkv-6P-iO0" id="5IP-y0-0ci"/>
+                <outlet property="view" destination="Hz6-mo-xeY" id="3gw-OQ-dkC"/>
+            </connections>
+        </collectionViewItem>
+    </objects>
+</document>
