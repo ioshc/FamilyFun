@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F214C28C201ACF7400F7D145 /* ReactPose.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F214C28B201ACF7400F7D145 /* ReactPose.storyboard */; };
+		F214C28E201AD13000F7D145 /* PoseListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F214C28D201AD13000F7D145 /* PoseListViewController.swift */; };
+		F214C290201AD14100F7D145 /* PoseDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F214C28F201AD14100F7D145 /* PoseDetailViewController.swift */; };
+		F214C29A201ADA9300F7D145 /* 合照7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F214C292201ADA9300F7D145 /* 合照7.jpg */; };
+		F214C29B201ADA9300F7D145 /* 合照4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F214C293201ADA9300F7D145 /* 合照4.jpg */; };
+		F214C29C201ADA9300F7D145 /* 合照6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F214C294201ADA9300F7D145 /* 合照6.jpg */; };
+		F214C29D201ADA9300F7D145 /* 合照3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F214C295201ADA9300F7D145 /* 合照3.jpg */; };
+		F214C29E201ADA9300F7D145 /* 合照1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F214C296201ADA9300F7D145 /* 合照1.jpg */; };
+		F214C29F201ADA9300F7D145 /* 合照2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F214C297201ADA9300F7D145 /* 合照2.jpg */; };
+		F214C2A0201ADA9300F7D145 /* 合照5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F214C298201ADA9300F7D145 /* 合照5.jpg */; };
+		F214C2A1201ADA9300F7D145 /* 合照8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F214C299201ADA9300F7D145 /* 合照8.jpg */; };
+		F214C2AC201B1E4F00F7D145 /* SkipNumberViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F214C2AB201B1E4F00F7D145 /* SkipNumberViewController.xib */; };
+		F22FB2E51FE7B5B1001E82F6 /* SocketConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FB2E41FE7B5B1001E82F6 /* SocketConnector.swift */; };
+		F23726B32017125C00582489 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23726B22017125C00582489 /* UIViewController+Extension.swift */; };
+		F23726CA2017133E00582489 /* ReactPoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23726B52017133C00582489 /* ReactPoseViewController.swift */; };
+		F23726CB2017133E00582489 /* SkipNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23726B72017133D00582489 /* SkipNumberViewController.swift */; };
+		F23726CC2017133E00582489 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23726B92017133D00582489 /* QuestionViewController.swift */; };
+		F23726CD2017133E00582489 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23726BA2017133D00582489 /* Question.swift */; };
+		F23726CE2017133E00582489 /* QuestionAnwserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23726BB2017133D00582489 /* QuestionAnwserView.swift */; };
+		F23726CF2017133E00582489 /* 当当当.wav in Resources */ = {isa = PBXBuildFile; fileRef = F23726BC2017133D00582489 /* 当当当.wav */; };
+		F23726D02017133E00582489 /* QuestionAnwserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23726BD2017133D00582489 /* QuestionAnwserView.xib */; };
+		F23726D12017133E00582489 /* Anwser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23726BE2017133D00582489 /* Anwser.swift */; };
+		F23726D22017133E00582489 /* 胜利.wav in Resources */ = {isa = PBXBuildFile; fileRef = F23726BF2017133D00582489 /* 胜利.wav */; };
+		F23726D42017133E00582489 /* ResponderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23726C32017133D00582489 /* ResponderViewController.swift */; };
+		F23726D52017133E00582489 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23726C52017133D00582489 /* InfoViewController.swift */; };
+		F23726D62017133E00582489 /* ClockPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23726C72017133D00582489 /* ClockPlayViewController.swift */; };
+		F23726D72017133E00582489 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23726C92017133D00582489 /* LoginViewController.swift */; };
+		F23726D92017137200582489 /* Question.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23726D82017137200582489 /* Question.storyboard */; };
+		F23726DB201713A000582489 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23726DA201713A000582489 /* LoginViewController.xib */; };
+		F23726DD201713B100582489 /* InfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23726DC201713B100582489 /* InfoViewController.xib */; };
+		F23726DF2017154100582489 /* ResponderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23726DE2017154100582489 /* ResponderViewController.xib */; };
+		F23726E12017170F00582489 /* InfoViewLogCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F23726E02017170F00582489 /* InfoViewLogCell.xib */; };
+		F248871C200DDBE60057AEAB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F248871B200DDBE60057AEAB /* MainViewController.swift */; };
+		F257E25A1FE7C353000B8F96 /* Loger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F257E2591FE7C353000B8F96 /* Loger.swift */; };
+		F259EAC920185E9C004AD41A /* GuessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F259EAC720185E9C004AD41A /* GuessViewController.swift */; };
+		F259EACC20186186004AD41A /* Guess.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F259EACB20186186004AD41A /* Guess.storyboard */; };
+		F259EACE20186B17004AD41A /* youDoIGuessList in Resources */ = {isa = PBXBuildFile; fileRef = F259EACD20186B17004AD41A /* youDoIGuessList */; };
+		F259EAD020186B3A004AD41A /* youSpeakIGuessList in Resources */ = {isa = PBXBuildFile; fileRef = F259EACF20186B3A004AD41A /* youSpeakIGuessList */; };
+		F259EAD220186B4C004AD41A /* youAnwserIGuessList in Resources */ = {isa = PBXBuildFile; fileRef = F259EAD120186B4C004AD41A /* youAnwserIGuessList */; };
+		F259EAD420198CFC004AD41A /* allIdiomList in Resources */ = {isa = PBXBuildFile; fileRef = F259EAD320198CFC004AD41A /* allIdiomList */; };
+		F259EAD62019BEC1004AD41A /* ClockPlay.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F259EAD52019BEC1004AD41A /* ClockPlay.storyboard */; };
+		F259EAD82019C7DE004AD41A /* ClockListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F259EAD72019C7DE004AD41A /* ClockListViewController.swift */; };
+		F259EADA2019C7EB004AD41A /* ClockDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F259EAD92019C7EB004AD41A /* ClockDetailViewController.swift */; };
+		F26FC1F821F17C4E00372D31 /* DeliverSentenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FC1F021F17C4D00372D31 /* DeliverSentenceViewController.swift */; };
+		F26FC1F921F17C4E00372D31 /* sentenceList in Resources */ = {isa = PBXBuildFile; fileRef = F26FC1F121F17C4D00372D31 /* sentenceList */; };
+		F26FC1FA21F17C4E00372D31 /* DeliverSentenceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F26FC1F221F17C4D00372D31 /* DeliverSentenceViewController.xib */; };
+		F26FC1FB21F17C4E00372D31 /* 击鼓传花.wav in Resources */ = {isa = PBXBuildFile; fileRef = F26FC1F421F17C4E00372D31 /* 击鼓传花.wav */; };
+		F26FC1FC21F17C4E00372D31 /* DeliverFlowerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26FC1F521F17C4E00372D31 /* DeliverFlowerViewController.swift */; };
+		F26FC1FD21F17C4E00372D31 /* DeliverFlowerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F26FC1F621F17C4E00372D31 /* DeliverFlowerViewController.xib */; };
+		F26FC1FE21F17C4E00372D31 /* 击鼓传花2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F26FC1F721F17C4E00372D31 /* 击鼓传花2.wav */; };
+		F29814F2201B394100D1DBD1 /* MyNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29814F1201B394100D1DBD1 /* MyNavigationController.swift */; };
+		F2D255071FE7985D0084A7AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D255061FE7985D0084A7AD /* AppDelegate.swift */; };
+		F2D2550C1FE7985D0084A7AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D2550A1FE7985D0084A7AD /* Main.storyboard */; };
+		F2D2550E1FE7985D0084A7AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2D2550D1FE7985D0084A7AD /* Assets.xcassets */; };
+		F2D255111FE7985D0084A7AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2D2550F1FE7985D0084A7AD /* LaunchScreen.storyboard */; };
+		F2D255211FE798B40084A7AD /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F2D2551F1FE798B40084A7AD /* GCDAsyncSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F214C28B201ACF7400F7D145 /* ReactPose.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ReactPose.storyboard; sourceTree = "<group>"; };
+		F214C28D201AD13000F7D145 /* PoseListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseListViewController.swift; sourceTree = "<group>"; };
+		F214C28F201AD14100F7D145 /* PoseDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseDetailViewController.swift; sourceTree = "<group>"; };
+		F214C292201ADA9300F7D145 /* 合照7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "合照7.jpg"; sourceTree = "<group>"; };
+		F214C293201ADA9300F7D145 /* 合照4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "合照4.jpg"; sourceTree = "<group>"; };
+		F214C294201ADA9300F7D145 /* 合照6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "合照6.jpg"; sourceTree = "<group>"; };
+		F214C295201ADA9300F7D145 /* 合照3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "合照3.jpg"; sourceTree = "<group>"; };
+		F214C296201ADA9300F7D145 /* 合照1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "合照1.jpg"; sourceTree = "<group>"; };
+		F214C297201ADA9300F7D145 /* 合照2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "合照2.jpg"; sourceTree = "<group>"; };
+		F214C298201ADA9300F7D145 /* 合照5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "合照5.jpg"; sourceTree = "<group>"; };
+		F214C299201ADA9300F7D145 /* 合照8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "合照8.jpg"; sourceTree = "<group>"; };
+		F214C2AB201B1E4F00F7D145 /* SkipNumberViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SkipNumberViewController.xib; sourceTree = "<group>"; };
+		F22FB2E41FE7B5B1001E82F6 /* SocketConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketConnector.swift; sourceTree = "<group>"; };
+		F23726B22017125C00582489 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		F23726B52017133C00582489 /* ReactPoseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactPoseViewController.swift; sourceTree = "<group>"; };
+		F23726B72017133D00582489 /* SkipNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkipNumberViewController.swift; sourceTree = "<group>"; };
+		F23726B92017133D00582489 /* QuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		F23726BA2017133D00582489 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		F23726BB2017133D00582489 /* QuestionAnwserView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionAnwserView.swift; sourceTree = "<group>"; };
+		F23726BC2017133D00582489 /* 当当当.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "当当当.wav"; sourceTree = "<group>"; };
+		F23726BD2017133D00582489 /* QuestionAnwserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionAnwserView.xib; sourceTree = "<group>"; };
+		F23726BE2017133D00582489 /* Anwser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Anwser.swift; sourceTree = "<group>"; };
+		F23726BF2017133D00582489 /* 胜利.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "胜利.wav"; sourceTree = "<group>"; };
+		F23726C32017133D00582489 /* ResponderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponderViewController.swift; sourceTree = "<group>"; };
+		F23726C52017133D00582489 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		F23726C72017133D00582489 /* ClockPlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockPlayViewController.swift; sourceTree = "<group>"; };
+		F23726C92017133D00582489 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F23726D82017137200582489 /* Question.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Question.storyboard; sourceTree = "<group>"; };
+		F23726DA201713A000582489 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		F23726DC201713B100582489 /* InfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoViewController.xib; sourceTree = "<group>"; };
+		F23726DE2017154100582489 /* ResponderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResponderViewController.xib; sourceTree = "<group>"; };
+		F23726E02017170F00582489 /* InfoViewLogCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoViewLogCell.xib; sourceTree = "<group>"; };
+		F248871B200DDBE60057AEAB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		F257E2591FE7C353000B8F96 /* Loger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loger.swift; sourceTree = "<group>"; };
+		F259EAC720185E9C004AD41A /* GuessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessViewController.swift; sourceTree = "<group>"; };
+		F259EACB20186186004AD41A /* Guess.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Guess.storyboard; sourceTree = "<group>"; };
+		F259EACD20186B17004AD41A /* youDoIGuessList */ = {isa = PBXFileReference; lastKnownFileType = text; path = youDoIGuessList; sourceTree = "<group>"; };
+		F259EACF20186B3A004AD41A /* youSpeakIGuessList */ = {isa = PBXFileReference; lastKnownFileType = text; path = youSpeakIGuessList; sourceTree = "<group>"; };
+		F259EAD120186B4C004AD41A /* youAnwserIGuessList */ = {isa = PBXFileReference; lastKnownFileType = text; path = youAnwserIGuessList; sourceTree = "<group>"; };
+		F259EAD320198CFC004AD41A /* allIdiomList */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = allIdiomList; sourceTree = "<group>"; };
+		F259EAD52019BEC1004AD41A /* ClockPlay.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ClockPlay.storyboard; sourceTree = "<group>"; };
+		F259EAD72019C7DE004AD41A /* ClockListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockListViewController.swift; sourceTree = "<group>"; };
+		F259EAD92019C7EB004AD41A /* ClockDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockDetailViewController.swift; sourceTree = "<group>"; };
+		F26FC1F021F17C4D00372D31 /* DeliverSentenceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliverSentenceViewController.swift; sourceTree = "<group>"; };
+		F26FC1F121F17C4D00372D31 /* sentenceList */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sentenceList; sourceTree = "<group>"; };
+		F26FC1F221F17C4D00372D31 /* DeliverSentenceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeliverSentenceViewController.xib; sourceTree = "<group>"; };
+		F26FC1F421F17C4E00372D31 /* 击鼓传花.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "击鼓传花.wav"; sourceTree = "<group>"; };
+		F26FC1F521F17C4E00372D31 /* DeliverFlowerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliverFlowerViewController.swift; sourceTree = "<group>"; };
+		F26FC1F621F17C4E00372D31 /* DeliverFlowerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeliverFlowerViewController.xib; sourceTree = "<group>"; };
+		F26FC1F721F17C4E00372D31 /* 击鼓传花2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "击鼓传花2.wav"; sourceTree = "<group>"; };
+		F29814F1201B394100D1DBD1 /* MyNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyNavigationController.swift; sourceTree = "<group>"; };
+		F2D255031FE7985D0084A7AD /* ResponderSystemClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ResponderSystemClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D255061FE7985D0084A7AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2D2550B1FE7985D0084A7AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2D2550D1FE7985D0084A7AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F2D255101FE7985D0084A7AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F2D255121FE7985D0084A7AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2D255181FE7988C0084A7AD /* ResponderSystemClient-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ResponderSystemClient-Bridging-Header.h"; sourceTree = "<group>"; };
+		F2D2551F1FE798B40084A7AD /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		F2D255201FE798B40084A7AD /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		F2D255251FE79A8B0084A7AD /* ResponderSystemClient.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ResponderSystemClient.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F2D255001FE7985D0084A7AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F214C291201ADA9300F7D145 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				F214C292201ADA9300F7D145 /* 合照7.jpg */,
+				F214C293201ADA9300F7D145 /* 合照4.jpg */,
+				F214C294201ADA9300F7D145 /* 合照6.jpg */,
+				F214C295201ADA9300F7D145 /* 合照3.jpg */,
+				F214C296201ADA9300F7D145 /* 合照1.jpg */,
+				F214C297201ADA9300F7D145 /* 合照2.jpg */,
+				F214C298201ADA9300F7D145 /* 合照5.jpg */,
+				F214C299201ADA9300F7D145 /* 合照8.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		F23726B12017125C00582489 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F23726B22017125C00582489 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F23726B42017133C00582489 /* ReacPose */ = {
+			isa = PBXGroup;
+			children = (
+				F214C291201ADA9300F7D145 /* Images */,
+				F23726B52017133C00582489 /* ReactPoseViewController.swift */,
+				F214C28D201AD13000F7D145 /* PoseListViewController.swift */,
+				F214C28F201AD14100F7D145 /* PoseDetailViewController.swift */,
+				F214C28B201ACF7400F7D145 /* ReactPose.storyboard */,
+			);
+			path = ReacPose;
+			sourceTree = "<group>";
+		};
+		F23726B62017133D00582489 /* SkipNumber */ = {
+			isa = PBXGroup;
+			children = (
+				F23726B72017133D00582489 /* SkipNumberViewController.swift */,
+				F214C2AB201B1E4F00F7D145 /* SkipNumberViewController.xib */,
+			);
+			path = SkipNumber;
+			sourceTree = "<group>";
+		};
+		F23726B82017133D00582489 /* Question */ = {
+			isa = PBXGroup;
+			children = (
+				F23726D82017137200582489 /* Question.storyboard */,
+				F23726BA2017133D00582489 /* Question.swift */,
+				F23726BE2017133D00582489 /* Anwser.swift */,
+				F23726B92017133D00582489 /* QuestionViewController.swift */,
+				F23726BD2017133D00582489 /* QuestionAnwserView.xib */,
+				F23726BB2017133D00582489 /* QuestionAnwserView.swift */,
+				F23726BC2017133D00582489 /* 当当当.wav */,
+				F23726BF2017133D00582489 /* 胜利.wav */,
+			);
+			path = Question;
+			sourceTree = "<group>";
+		};
+		F23726C22017133D00582489 /* Responder */ = {
+			isa = PBXGroup;
+			children = (
+				F23726C32017133D00582489 /* ResponderViewController.swift */,
+				F23726DE2017154100582489 /* ResponderViewController.xib */,
+			);
+			path = Responder;
+			sourceTree = "<group>";
+		};
+		F23726C42017133D00582489 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				F23726C52017133D00582489 /* InfoViewController.swift */,
+				F23726E02017170F00582489 /* InfoViewLogCell.xib */,
+				F23726DC201713B100582489 /* InfoViewController.xib */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		F23726C62017133D00582489 /* ClockPlay */ = {
+			isa = PBXGroup;
+			children = (
+				F23726C72017133D00582489 /* ClockPlayViewController.swift */,
+				F259EAD72019C7DE004AD41A /* ClockListViewController.swift */,
+				F259EAD92019C7EB004AD41A /* ClockDetailViewController.swift */,
+				F259EAD52019BEC1004AD41A /* ClockPlay.storyboard */,
+			);
+			path = ClockPlay;
+			sourceTree = "<group>";
+		};
+		F23726C82017133D00582489 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F23726C92017133D00582489 /* LoginViewController.swift */,
+				F23726DA201713A000582489 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F259EAC620185E7D004AD41A /* Guess */ = {
+			isa = PBXGroup;
+			children = (
+				F259EAC720185E9C004AD41A /* GuessViewController.swift */,
+				F259EACB20186186004AD41A /* Guess.storyboard */,
+				F259EACD20186B17004AD41A /* youDoIGuessList */,
+				F259EAD320198CFC004AD41A /* allIdiomList */,
+				F259EACF20186B3A004AD41A /* youSpeakIGuessList */,
+				F259EAD120186B4C004AD41A /* youAnwserIGuessList */,
+			);
+			path = Guess;
+			sourceTree = "<group>";
+		};
+		F26FC1EF21F17C4D00372D31 /* DeliverSentence */ = {
+			isa = PBXGroup;
+			children = (
+				F26FC1F021F17C4D00372D31 /* DeliverSentenceViewController.swift */,
+				F26FC1F121F17C4D00372D31 /* sentenceList */,
+				F26FC1F221F17C4D00372D31 /* DeliverSentenceViewController.xib */,
+			);
+			path = DeliverSentence;
+			sourceTree = "<group>";
+		};
+		F26FC1F321F17C4E00372D31 /* DeliverFlower */ = {
+			isa = PBXGroup;
+			children = (
+				F26FC1F421F17C4E00372D31 /* 击鼓传花.wav */,
+				F26FC1F521F17C4E00372D31 /* DeliverFlowerViewController.swift */,
+				F26FC1F621F17C4E00372D31 /* DeliverFlowerViewController.xib */,
+				F26FC1F721F17C4E00372D31 /* 击鼓传花2.wav */,
+			);
+			path = DeliverFlower;
+			sourceTree = "<group>";
+		};
+		F2D254FA1FE7985D0084A7AD = {
+			isa = PBXGroup;
+			children = (
+				F2D255051FE7985D0084A7AD /* ResponderSystemClient */,
+				F2D255041FE7985D0084A7AD /* Products */,
+				F2D255221FE79A8B0084A7AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F2D255041FE7985D0084A7AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F2D255031FE7985D0084A7AD /* ResponderSystemClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F2D255051FE7985D0084A7AD /* ResponderSystemClient */ = {
+			isa = PBXGroup;
+			children = (
+				F257E2591FE7C353000B8F96 /* Loger.swift */,
+				F22FB2E41FE7B5B1001E82F6 /* SocketConnector.swift */,
+				F2D255061FE7985D0084A7AD /* AppDelegate.swift */,
+				F248871B200DDBE60057AEAB /* MainViewController.swift */,
+				F29814F1201B394100D1DBD1 /* MyNavigationController.swift */,
+				F2D2550A1FE7985D0084A7AD /* Main.storyboard */,
+				F26FC1EF21F17C4D00372D31 /* DeliverSentence */,
+				F26FC1F321F17C4E00372D31 /* DeliverFlower */,
+				F259EAC620185E7D004AD41A /* Guess */,
+				F23726C62017133D00582489 /* ClockPlay */,
+				F23726C42017133D00582489 /* Info */,
+				F23726C82017133D00582489 /* Login */,
+				F23726B82017133D00582489 /* Question */,
+				F23726B42017133C00582489 /* ReacPose */,
+				F23726C22017133D00582489 /* Responder */,
+				F23726B62017133D00582489 /* SkipNumber */,
+				F2D2551D1FE798B40084A7AD /* Vender */,
+				F23726B12017125C00582489 /* Extensions */,
+				F2D2551C1FE798960084A7AD /* Support files */,
+			);
+			path = ResponderSystemClient;
+			sourceTree = "<group>";
+		};
+		F2D2551C1FE798960084A7AD /* Support files */ = {
+			isa = PBXGroup;
+			children = (
+				F2D2550F1FE7985D0084A7AD /* LaunchScreen.storyboard */,
+				F2D255251FE79A8B0084A7AD /* ResponderSystemClient.entitlements */,
+				F2D2550D1FE7985D0084A7AD /* Assets.xcassets */,
+				F2D255121FE7985D0084A7AD /* Info.plist */,
+				F2D255181FE7988C0084A7AD /* ResponderSystemClient-Bridging-Header.h */,
+			);
+			name = "Support files";
+			sourceTree = "<group>";
+		};
+		F2D2551D1FE798B40084A7AD /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				F2D2551E1FE798B40084A7AD /* CocoaAsyncSocket */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		F2D2551E1FE798B40084A7AD /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				F2D2551F1FE798B40084A7AD /* GCDAsyncSocket.m */,
+				F2D255201FE798B40084A7AD /* GCDAsyncSocket.h */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		F2D255221FE79A8B0084A7AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F2D255021FE7985D0084A7AD /* ResponderSystemClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2D255151FE7985D0084A7AD /* Build configuration list for PBXNativeTarget "ResponderSystemClient" */;
+			buildPhases = (
+				F2D254FF1FE7985D0084A7AD /* Sources */,
+				F2D255001FE7985D0084A7AD /* Frameworks */,
+				F2D255011FE7985D0084A7AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ResponderSystemClient;
+			productName = ResponderSystemClient;
+			productReference = F2D255031FE7985D0084A7AD /* ResponderSystemClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2D254FB1FE7985D0084A7AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = com.shenma;
+				TargetAttributes = {
+					F2D255021FE7985D0084A7AD = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.NetworkExtensions.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F2D254FE1FE7985D0084A7AD /* Build configuration list for PBXProject "ResponderSystemClient" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F2D254FA1FE7985D0084A7AD;
+			productRefGroup = F2D255041FE7985D0084A7AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F2D255021FE7985D0084A7AD /* ResponderSystemClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F2D255011FE7985D0084A7AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26FC1FD21F17C4E00372D31 /* DeliverFlowerViewController.xib in Resources */,
+				F259EAD420198CFC004AD41A /* allIdiomList in Resources */,
+				F23726CF2017133E00582489 /* 当当当.wav in Resources */,
+				F23726D02017133E00582489 /* QuestionAnwserView.xib in Resources */,
+				F2D255111FE7985D0084A7AD /* LaunchScreen.storyboard in Resources */,
+				F214C29D201ADA9300F7D145 /* 合照3.jpg in Resources */,
+				F23726E12017170F00582489 /* InfoViewLogCell.xib in Resources */,
+				F214C28C201ACF7400F7D145 /* ReactPose.storyboard in Resources */,
+				F23726DB201713A000582489 /* LoginViewController.xib in Resources */,
+				F214C2AC201B1E4F00F7D145 /* SkipNumberViewController.xib in Resources */,
+				F26FC1F921F17C4E00372D31 /* sentenceList in Resources */,
+				F214C29B201ADA9300F7D145 /* 合照4.jpg in Resources */,
+				F23726DF2017154100582489 /* ResponderViewController.xib in Resources */,
+				F259EAD220186B4C004AD41A /* youAnwserIGuessList in Resources */,
+				F259EAD020186B3A004AD41A /* youSpeakIGuessList in Resources */,
+				F214C29E201ADA9300F7D145 /* 合照1.jpg in Resources */,
+				F23726DD201713B100582489 /* InfoViewController.xib in Resources */,
+				F214C2A0201ADA9300F7D145 /* 合照5.jpg in Resources */,
+				F2D2550E1FE7985D0084A7AD /* Assets.xcassets in Resources */,
+				F214C29F201ADA9300F7D145 /* 合照2.jpg in Resources */,
+				F214C29A201ADA9300F7D145 /* 合照7.jpg in Resources */,
+				F259EAD62019BEC1004AD41A /* ClockPlay.storyboard in Resources */,
+				F26FC1FB21F17C4E00372D31 /* 击鼓传花.wav in Resources */,
+				F26FC1FA21F17C4E00372D31 /* DeliverSentenceViewController.xib in Resources */,
+				F214C29C201ADA9300F7D145 /* 合照6.jpg in Resources */,
+				F2D2550C1FE7985D0084A7AD /* Main.storyboard in Resources */,
+				F259EACE20186B17004AD41A /* youDoIGuessList in Resources */,
+				F214C2A1201ADA9300F7D145 /* 合照8.jpg in Resources */,
+				F23726D22017133E00582489 /* 胜利.wav in Resources */,
+				F23726D92017137200582489 /* Question.storyboard in Resources */,
+				F259EACC20186186004AD41A /* Guess.storyboard in Resources */,
+				F26FC1FE21F17C4E00372D31 /* 击鼓传花2.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F2D254FF1FE7985D0084A7AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23726CB2017133E00582489 /* SkipNumberViewController.swift in Sources */,
+				F26FC1F821F17C4E00372D31 /* DeliverSentenceViewController.swift in Sources */,
+				F2D255211FE798B40084A7AD /* GCDAsyncSocket.m in Sources */,
+				F23726D42017133E00582489 /* ResponderViewController.swift in Sources */,
+				F259EADA2019C7EB004AD41A /* ClockDetailViewController.swift in Sources */,
+				F23726D52017133E00582489 /* InfoViewController.swift in Sources */,
+				F214C28E201AD13000F7D145 /* PoseListViewController.swift in Sources */,
+				F23726CA2017133E00582489 /* ReactPoseViewController.swift in Sources */,
+				F29814F2201B394100D1DBD1 /* MyNavigationController.swift in Sources */,
+				F259EAC920185E9C004AD41A /* GuessViewController.swift in Sources */,
+				F23726B32017125C00582489 /* UIViewController+Extension.swift in Sources */,
+				F257E25A1FE7C353000B8F96 /* Loger.swift in Sources */,
+				F26FC1FC21F17C4E00372D31 /* DeliverFlowerViewController.swift in Sources */,
+				F23726CD2017133E00582489 /* Question.swift in Sources */,
+				F23726D62017133E00582489 /* ClockPlayViewController.swift in Sources */,
+				F2D255071FE7985D0084A7AD /* AppDelegate.swift in Sources */,
+				F23726D12017133E00582489 /* Anwser.swift in Sources */,
+				F22FB2E51FE7B5B1001E82F6 /* SocketConnector.swift in Sources */,
+				F23726D72017133E00582489 /* LoginViewController.swift in Sources */,
+				F23726CE2017133E00582489 /* QuestionAnwserView.swift in Sources */,
+				F248871C200DDBE60057AEAB /* MainViewController.swift in Sources */,
+				F23726CC2017133E00582489 /* QuestionViewController.swift in Sources */,
+				F214C290201AD14100F7D145 /* PoseDetailViewController.swift in Sources */,
+				F259EAD82019C7DE004AD41A /* ClockListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F2D2550A1FE7985D0084A7AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D2550B1FE7985D0084A7AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F2D2550F1FE7985D0084A7AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2D255101FE7985D0084A7AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F2D255131FE7985D0084A7AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F2D255141FE7985D0084A7AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F2D255161FE7985D0084A7AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9UJE4875S;
+				INFOPLIST_FILE = ResponderSystemClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenma.ResponderSystemClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ResponderSystemClient/ResponderSystemClient-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F2D255171FE7985D0084A7AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A9UJE4875S;
+				INFOPLIST_FILE = ResponderSystemClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenma.ResponderSystemClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ResponderSystemClient/ResponderSystemClient-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F2D254FE1FE7985D0084A7AD /* Build configuration list for PBXProject "ResponderSystemClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D255131FE7985D0084A7AD /* Debug */,
+				F2D255141FE7985D0084A7AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2D255151FE7985D0084A7AD /* Build configuration list for PBXNativeTarget "ResponderSystemClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2D255161FE7985D0084A7AD /* Debug */,
+				F2D255171FE7985D0084A7AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2D254FB1FE7985D0084A7AD /* Project object */;
+}
